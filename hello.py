@@ -13,7 +13,7 @@ print(re.findall("\S+?@\S+"))
 
 import re
 
-fopen = open("textfile.txt", "r")
+fopen = open("Text_files/textfile.txt", "r")
 my_list = list()
 for lines in fopen:
     line = lines.rstrip()

@@ -19,7 +19,7 @@ print(sorted(new_list))
 
 #prints out who sent the email from a MBOX
 
-fopen = open('text1.txt', 'r')
+fopen = open('../Text_files/text1.txt', 'r')
 fhand = fopen.readlines()
 count = 0
 for line in fhand:

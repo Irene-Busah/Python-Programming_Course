@@ -8,6 +8,7 @@ for left in range(7):
 """
 
 # guessing game
+
 n = 2
 to_be_guessed = int(random.random() * n) + 1
 guess = 0

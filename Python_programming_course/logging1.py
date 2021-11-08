@@ -3,7 +3,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 stream_h = logging.StreamHandler()
-file_h = logging.FileHandler('file.log')
+file_h = logging.FileHandler('../Text_files/file.log')
 
 stream_h.setLevel(logging.WARNING)
 file_h.setLevel(logging.ERROR)

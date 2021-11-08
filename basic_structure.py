@@ -21,7 +21,7 @@ print(count("Irene is here", 'e'))
 print(count("The Lord's Grace is sufficient for my life!", "s"))
 """
 
-fhand = open('text.txt', 'r')
+fhand = open('Text_files/text.txt', 'r')
 #print(fhand.readlines(57))
 #count = 0
 for line in fhand:

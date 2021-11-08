@@ -36,6 +36,3 @@ if __name__ == "__main__":
     returned_errors = error_search(log_file)
     file_output(returned_errors)
     sys.exit(0)
-
-
-

@@ -20,7 +20,7 @@ for line in fopen:
 print(new_content)
 """
 
-file_open = open('text1.txt', 'r')
+file_open = open('../Text_files/text1.txt', 'r')
 
 file_hand = file_open.readlines()
 maximum = 0

@@ -1,0 +1,2 @@
+This course is all about using Python to interact with the operating system
+Thus, managing files and directories on your operating system.

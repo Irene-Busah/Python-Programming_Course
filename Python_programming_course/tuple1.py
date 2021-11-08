@@ -1,7 +1,7 @@
 import string
 # prints the ten most common words in the text
 
-file_open = open('romeo.txt', 'r')
+file_open = open('../Text_files/romeo.txt', 'r')
 contents = dict()
 for line in file_open:
     line = line.translate(str.maketrans('', '', string.punctuation))
